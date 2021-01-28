@@ -7,6 +7,7 @@
 > build.gradle 파일의 dependencies에 추가
 ```
 // Kotlin
+  def nav_version = "2.3.2"
   implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
   implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 ```
